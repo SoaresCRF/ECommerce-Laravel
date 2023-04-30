@@ -118,7 +118,7 @@
                                                 onclick="return confirm('Você não será capaz de reverter isso!')">Deletar
                                                 conta</button>
                                         </form>
-                                        <a href="{{ route('clientelogout') }}" class="dropdown-item">Sair</a>
+                                        <a onclick="return confirm('Deseja realmente deslogar?')" href="{{ route('clientelogout') }}" class="dropdown-item">Sair</a>
                                     </div>
                                 </div>
                             </div>
