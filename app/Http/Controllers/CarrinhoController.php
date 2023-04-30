@@ -128,14 +128,13 @@ class CarrinhoController extends Controller
             $produto = Produto::find($id);
 
             // Altera no controle de venda
-            if ($compraRealizadaHoje = ControleVenda::whereDate('data_venda', date('Ymd'))->where('cod_produto', $id)->where('cpf', session('cpf'))->first()) {
+            if ($compraRealizadaHoje = ControleVenda::whereDate('data_venda', date('Ymd'))->where('cod_produto', $id)->first()) {
                 $compraRealizadaHoje->qtd_comprada +=  $request->qtd[$index];
                 $compraRealizadaHoje->total_venda += ($produto->valor_venda * $request->qtd[$index]);
                 $compraRealizadaHoje->update();
             } else {
                 $dataControleVenda = [
                     'cod_produto' => $produto->id,
-                    'cpf' => session('cpf'),
                     'nome_produto' => $produto->nome_produto,
                     'fornecedor' => $produto->fornecedor,
                     'valor_venda' => $produto->valor_venda,

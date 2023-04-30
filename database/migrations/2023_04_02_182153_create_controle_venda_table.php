@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('controle_venda', function (Blueprint $table) {
             $table->id();
             $table->smallInteger('cod_produto')->unsigned();
-            $table->string('cpf', 11);
             $table->string('nome_produto', 50);
             $table->string('fornecedor', 50);
             $table->decimal('valor_venda')->unsigned();
