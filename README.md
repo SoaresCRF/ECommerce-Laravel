@@ -42,7 +42,7 @@ Arquivo .sql contém produtos cadastrados, vendidos e uma conta com privilégios
 ## Screenshots
 Demonstração de algumas views do projeto.
 
-### Adminstração (View)
+### Adminstração (Views)
 ![login](https://user-images.githubusercontent.com/103540321/235787397-7b92d06b-0f94-44c8-a8d0-caa6eb71b318.PNG)
 
 ![cadastrar produto](https://user-images.githubusercontent.com/103540321/235785166-3b529935-f53a-4609-af4c-ab7b327704fb.PNG)
@@ -57,7 +57,7 @@ Demonstração de algumas views do projeto.
 
 ![relatorio geral produtos](https://user-images.githubusercontent.com/103540321/235781359-d9c7c46d-47af-4f00-9d7a-8eda416b0c19.PNG)
 
-### Cliente(View)
+### Cliente(Views)
 ![login](https://user-images.githubusercontent.com/103540321/235783750-ae690207-068a-4020-aa10-0d5631aa3523.PNG)
 
 ![cadastrar](https://user-images.githubusercontent.com/103540321/235783741-7891dba6-8a0d-4776-bc8f-45c64adacc5f.PNG)
