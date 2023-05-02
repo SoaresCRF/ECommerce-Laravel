@@ -11,7 +11,7 @@
 ## Sobre E-Commerce
 Projeto desenvolvido em Laravel simulando um site de e-commerce dividido em duas principais telas de **adminstração** e de **cliente** com diferentes responsabilidades e recusos. 
 
-### Adminstração (View)
+### Adminstração (Views)
 - Login
 - Cadastrar/Visualizar produtos
 - Cadastrar/Visualizar funcionários
@@ -19,7 +19,7 @@ Projeto desenvolvido em Laravel simulando um site de e-commerce dividido em duas
 - Relatórios de venda com tabela (mais detalhes): diário, mensal e geral
 - Relatório de clientes por estado
 
-### Cliente (View)
+### Cliente (Views)
 - Login
 - Cadastro 
 - Produtos: alimentos, bebidas, celulares, hardware e jogos
